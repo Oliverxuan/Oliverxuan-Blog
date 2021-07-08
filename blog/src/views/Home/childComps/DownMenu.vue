@@ -28,6 +28,7 @@ export default {
   methods: {
     home() {
       console.log('home')
+      this.$router.push('/home')
     },
     me() {
       console.log('me')
@@ -47,8 +48,9 @@ export default {
 
 <style scoped>
 .down {
-  margin-top: 10px;
-  background: rgb(0, 0, 0);
+  margin-top: 0;
+
+  background: rgb(31, 31, 31);
 }
 .down div {
   color: rgb(255, 255, 255);

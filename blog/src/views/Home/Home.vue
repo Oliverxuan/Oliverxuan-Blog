@@ -10,7 +10,7 @@
         <down-menu v-show="isDown"></down-menu>
       </div>
     </nav-bar>
-    <show-item />
+    <show-item class="show-item" />
 
     <detil></detil>
   </div>
@@ -52,7 +52,7 @@ export default {
   position: relative;
 }
 .nav-bar {
-  height: 40px;
+  height: 60px;
   background-color: rgb(31, 30, 30);
   color: aliceblue;
   font-size: 25px;
@@ -61,5 +61,9 @@ export default {
   right: 0;
   top: 0;
   z-index: 9;
+  padding-bottom: 0;
+}
+.show-item {
+  margin-top: 30px;
 }
 </style>

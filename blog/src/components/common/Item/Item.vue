@@ -5,6 +5,7 @@
     </div>
 
     <div class="center"><slot name="center"></slot></div>
+    <div class="hr"><slot name="hr"></slot></div>
     <div class="bottom"><slot name="bottom"></slot></div>
   </div>
 </template>
@@ -30,6 +31,7 @@ export default {
 <style scoped>
 .item {
   margin: 10px;
+  margin-bottom: 20px;
   padding: 5px;
   display: flex;
   flex-direction: column;
@@ -41,7 +43,7 @@ export default {
 .center {
   flex: 1;
   font-size: 20px;
-  padding-bottom: 10px;
+
   padding-top: 10px;
   color: azure;
 }
@@ -57,5 +59,6 @@ export default {
 }
 .bottom {
   color: rgba(243, 243, 243, 0.685);
+  margin-bottom: 10px;
 }
 </style>
