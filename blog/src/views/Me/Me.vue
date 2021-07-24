@@ -14,7 +14,9 @@
       </div>
     </nav-bar>
     <div class="me">
-      <h1>Oliver-xuan</h1>
+      <h2>Author：Oliver-xuan</h2>
+      <h3>📞：18781621128</h3>
+      <h3>🛰️：yzx690144569</h3>
     </div>
   </div>
 </template>
@@ -50,6 +52,10 @@ export default {
 
 <style scoped>
 #me {
+  padding-top: 50px;
+  display: flex;
+
+  justify-content: center;
   background: #000;
   position: relative;
   height: 100vh;
@@ -67,7 +73,7 @@ export default {
   padding-bottom: 0;
 }
 .me {
-  padding-top: 40px;
+  flex-direction: column;
   color: aliceblue;
 }
 </style>

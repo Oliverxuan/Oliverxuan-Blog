@@ -3,7 +3,7 @@
     <div class="top">
       <slot name="top"></slot>
     </div>
-
+    <div class="btn"><slot name="btn"></slot></div>
     <div class="center"><slot name="center"></slot></div>
     <div class="hr"><slot name="hr"></slot></div>
     <div class="bottom"><slot name="bottom"></slot></div>
